@@ -30,13 +30,6 @@ def hello(name):
 # ============================================================
 # ---- Exercise 1: add this to flaskapp.py ----
 
-@app.route('/analyze/<word>')
-def analyze(word):
-    count = len(word)
-    return str(count)
-    # Count the characters in `word` and return as a string
-    # Example: /analyze/Drake  →  should display: 5
-    pass
 
 # ---- Exercise 2: update your analyze route ----
 
