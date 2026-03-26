@@ -32,7 +32,8 @@ def hello(name):
 
 @app.route('/analyze/sarasota')
 def analyze(word):
-    # YOUR CODE HERE
+    count = len(word)
+    return str(count)
     # Count the characters in `word` and return as a string
     # Example: /analyze/Drake  →  should display: 5
     pass
@@ -46,5 +47,3 @@ def analyze(word):
 # ============================================================
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8080, debug=True)
-
-
