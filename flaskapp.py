@@ -31,7 +31,7 @@ def hello(name):
 # ---- Exercise 1: add this to flaskapp.py ----
 
 
-# ---- Exercise 2: update your analyze route ----
+# ---- Exercise 2: update your analyze route -----
 
 @app.route('/analyze/<word>')
 def analyze(word):
