@@ -30,7 +30,7 @@ def hello(name):
 # ============================================================
 # ---- Exercise 1: add this to flaskapp.py ----
 
-@app.route('/analyze/sarasota')
+@app.route('/analyze/<word>')
 def analyze(word):
     count = len(word)
     return str(count)
