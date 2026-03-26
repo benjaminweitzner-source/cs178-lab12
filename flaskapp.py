@@ -45,7 +45,7 @@ def analyze(word):
     # Step 1: character count (already done)
     num_chars = len(word)
 
-    num_vowels = sum(1 for _ in word.lower() if _ in 'aeiou')
+    num_vowels = sum(1 for i in word.lower() if i in 'aeiou')
     # Count vowels (a, e, i, o, u) — case insensitive, y is not a vowel
     # Hint: word.lower() converts to lowercase before checking each character
 
